@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartBuy India – Amazon Deals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 15px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to SmartBuy India</h1>
+  <p>Top Amazon deals curated just for you!</p>
 
+  <div class="product-container">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <h2>Philips Men's Trimmer</h2>
+      <img src="images/F7E2B9D5-DA59-4CD7-BEBC-04F0846E6F91.jpeg" alt="Trimmer">
+      <p>Philips India’s No.1 Men’s Trimmer – cordless, skin-friendly, and reliable.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <h2>Boat Aavante Bar 610</h2>
+      <img src="images/C819862D-A91A-4FBF-A81E-4DAD972C09F9.jpeg" alt="Soundbar">
+      <p>25W Bluetooth Soundbar with deep bass and 7-hour playback.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <h2>Zebronics Bluetooth Speaker</h2>
+      <img src="images/8FBE3704-ED1D-4898-900E-E3126D73320D.jpeg" alt="Speaker">
+      <p>Portable 3W speaker with AUX, USB, SD card, FM & call support.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <h2>iPhone 13 – Midnight</h2>
+      <img src="images/0C29973D-7260-4347-B80A-0813DEEE8FB4.jpeg" alt="iPhone 13">
+      <p>Apple iPhone 13 with 128GB – sleek, fast and powerful.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <h2>iQOO Neo 10R 5G</h2>
+      <img src="images/B876E0A9-398D-4CC5-BA11-904C96ACC007.jpeg" alt="iQOO">
+      <p>Snapdragon 8s Gen 3, 6400mAh battery — built for gaming and power.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <h2>Samsung Galaxy M14 5G</h2>
+      <img src="images/4FF79F47-9F16-4A6D-A727-2B9C371B2C72.jpeg" alt="Galaxy M14">
+      <p>ICY Silver, 6GB RAM, 128GB Storage – strong battery, clean UI.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <h2>Apple 20W USB-C Adapter</h2>
+      <img src="images/4D8E0378-A558-481C-BD4F-A73DA3E6249B.jpeg" alt="Apple Adapter">
+      <p>Fast charging for iPhone, iPad, AirPods – from Apple.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product-card">
+      <h2>MI 22.5W Fast Charger</h2>
+      <img src="images/D22D8211-FD17-4DEE-BB7A-EEE349DE53E7.jpeg" alt="MI Charger">
+      <p>22.5W Power Adapter + Type-C Cable – compatible with Redmi, Poco, Mi.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 9 -->
+    <div class="product-card">
+      <h2>Gear Classic Backpack</h2>
+      <img src="images/27261619-B8E2-4CAA-AA3E-9C4C83E11AB4.jpeg" alt="Backpack">
+      <p>20L Faux Leather, water-resistant, anti-theft backpack – stylish & secure.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+
+    <!-- Product 10 -->
+    <div class="product-card">
+      <h2>OnePlus Nord CE 3 Lite</h2>
+      <img src="images/E484AE4F-BC3E-4CDD-B36B-C143D486282C.jpeg" alt="OnePlus Nord">
+      <p>8GB RAM, 128GB Storage – stylish, fast and long battery life.</p>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+  </div>
+</body>
+</html>
